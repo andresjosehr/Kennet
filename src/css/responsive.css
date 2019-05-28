@@ -1,0 +1,68 @@
+/**************************************************/
+/******************** Responsive ******************/
+/**************************************************/
+@media screen and (max-width:1024px){
+    .logo-pequeno {
+        justify-content: center;
+    }
+    .item_personas1,.item_personas2,.item_personas3,.item_personas4,.item_personas5,.item_personas6,.item_personas7,.item_personas8 {
+        display: grid;
+        justify-content: center;
+      
+    }
+    .suscribaseapremium {
+        width: 73%;
+    }
+}
+ 
+
+
+@media screen and (min-width:501px){
+    .fondo-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-areas: "logo"
+     "form"
+     "login"
+     "footer ";
+        
+    }
+    .form {
+        margin-left: 0%;
+        margin-top: 15px;
+    }
+    body{
+        width: 100%;
+    }
+    form.form {
+        width: 300px;
+    }
+    
+ 
+}
+@media screen and (min-width:1024px){
+    .fondo-container{
+        display: grid;
+        grid-template-columns: 109px 250px  487px 1fr;
+        grid-gap: 10px;
+        grid-template-areas:
+        "logo . . login"
+        ".  bloque2 form ."
+        "footer footer footer footer";
+    }
+    .form {
+        margin-left: 0%;
+        margin-top: 15px;
+    }
+    body{
+        width: 100%;
+    }
+    form.form {
+        width: 85%;
+    }
+    
+ 
+}
+/**************************************************/
+/******************** Responsive ******************/
+/**************************************************/

@@ -1,0 +1,336 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Lato', system-ui;
+    color: #3e3b3f;
+    box-sizing: border-box;
+}
+ 
+:root{
+    --text-white: #e2e2e2;
+    --primario: #56509F;
+    --primario-hover: rgb(68, 61, 133);
+    --secundario: red;
+    --btnprimario: {
+        background: var(--primario);
+        color: white;
+        border-radius: 5px;
+        padding: 10px 15px;
+        border: none;
+        font-size: 16px;
+        border-bottom: 5px solid #3D3876;
+        display: inline-block;
+        cursor: pointer;
+    };
+    --btnperfil: {
+        background: var(--primario);
+        color: white;
+        border-radius: 5px;
+        padding: 5px 15px;
+        border: none;
+        font-size: 16px;
+        border-bottom: 5px solid #3D3876;
+        display: inline-block;
+        cursor: pointer;
+        width: 82%;
+        margin: 5px;
+    };
+    --btn-buscador-variable: {
+        background: #ffffff;
+        color: #404040;
+        border-radius: 5px;
+        padding: 5px 15px;
+        font-size: 16px;
+        border: none;
+        border: 1px solid #cecece;
+        display: inline-block;
+        cursor: pointer;
+        margin: 5px;
+    };
+
+}
+.checkbox:checked + .listaContratar {
+    display: none;
+}
+@custom-selector :--checkeable .checkbox-label, .radio-label;
+@custom-selector :--hightlight :hover, :active;
+
+:--checkeable{
+    cursor: pointer;
+    user-select: none;
+    padding: 3px 7px; 
+     border-bottom: 3px solid #3d3876;
+    color: #F3F3F3;
+    font-size: 12px;
+    border-radius: 5px;
+    margin-bottom:10px;
+    display: inline-block;
+    background: #56509f;
+}
+:--checkeable:--hightlight{
+    background: var(--primario-hover);
+};
+
+h2.black, .h2.black {
+    font-weight: 900;
+}
+h2, .h2 {
+    font-size: 21px;
+ 
+}
+
+.text-center{
+    text-align: center;
+}
+.espacio{
+    height: 50px;
+}
+.espacio1 {
+    height: 10px;
+}
+.espacio2 {
+    height: 20px;
+}
+.espacio3 {
+    height: 30px;
+}
+.logo img{
+    max-width: 109px;
+
+}
+p.terminos {
+    font-size: 14px;
+}
+span a {
+    /* color: #E91E63; */
+    color: #4ad9d9;
+}
+p.titulo{
+    font-size: 14px;
+}
+ 
+.bloque2{
+    grid-area: bloque2;
+    display: grid;
+   
+    align-items: center;
+/*     display: block; */
+}
+.bloque2 p{
+    font-size: 22px;
+}
+.listaDesplegable{
+    list-style: none;
+    padding-left: 0;
+}
+.listaDesplegable li{
+    position: relative;
+    padding-left: 40px;
+    line-height: 40px;
+}
+.listaDesplegable li:before {
+    content: '';
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    background-image: url('../../img/check_circle.png');
+    background-size: cover;
+    background-position: center;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+ul.listaDesplegable p {
+    margin-bottom: 20px;
+}
+label {
+    color: #3e3b3f;
+}
+.login p{
+    font-size: 16px;
+}
+.login .btnlogin a {
+    background: var(--primario);
+    color: white;
+    border-radius: 5px;
+    padding: 10px 15px;
+    border: none;
+    font-size: 12px;
+    border-bottom: 5px solid #3D3876;
+    display: inline-block;
+    margin-top: 10px;
+    text-decoration: none;
+}
+p{
+    margin: 0;
+}
+.heroinicio{
+    background-color: #F3F3F3;
+    background-image:  url('../../img/fondo2.jpg');
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    display: grid;
+    grid-template-columns: minmax(auto, 1024px);
+    justify-content: center;
+ 
+}
+.heroinicio-container{
+    display: grid;
+    grid-template-columns: 256px 1fr;
+    grid-template-areas:
+    "logo login"
+    "logo divTitulo "
+    "bloque2 form"
+    "footer footer";
+    grid-gap: 10px;
+}
+
+.btnlogin {
+    justify-content: flex-end;
+    display: grid;
+}
+.divTitulo h2 {
+    font-size: 2.2em;
+    font-style: italic;
+    font-weight: bold;
+}
+form.form {
+    width: 68%!important;
+    margin-left: 31%;
+    margin-top: 6%;
+    padding: 30px;
+}
+ 
+form.form.sinpadding {
+    padding: 40px 0px 0px 0px;
+    background: hsla(0,0%,100%,.0);
+} 
+.logo{
+    grid-area: logo;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+.divIniForm{
+    grid-area: divIniForm;
+}
+.login{
+    grid-area: login;
+}
+.purple{
+    background: #3d3876;
+}
+.white{
+    background: #f9f9f9;
+}
+.footer{
+    display: grid;
+    grid-template-columns: minmax(auto, 570px);
+    justify-content: center;
+    color: #e7e7e7;
+}
+.footer.white .slogan {
+    color: #313131!important;
+}
+.footer.white .info {
+    color: #313131;
+}
+  .footer-container .info{
+      font-size: 12px;
+      text-align: justify;
+      color:  var(--text-white);
+  }
+
+.slogan {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    color:  var(--text-white);
+}
+.social img{
+    max-width: 45px;
+}
+.social span {
+    margin-left: 6.5%;
+}
+.social span:after {
+    content: "";
+    display: inline-block;
+    margin:0 10px;
+    margin-bottom: 15px;
+}
+.enlaces {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.social span:last-child:after {
+ display: none;
+
+}
+.enlaces a {
+    display: block;
+    line-height: 30px;
+    text-decoration: none;
+    color: #9E9E9E;
+}
+.social span a {
+    color: #262626;
+    font-size: 0px;
+}
+/** Trabajo ***/
+img.magnify-icon {
+    width: 85px;
+}
+.trabajo p {
+    font-size: 21px;
+    line-height: 25px;
+}
+.trabajo p span{
+    font-size: .7em;
+}
+/** end Trabajo ***/
+img#imgresponsive{
+    display: none;
+}
+.fb-button-left {
+    width: 40px;
+}
+.fb-button-right {
+    background-position: 100% -80px;
+    width: 6px;
+}
+.fb-button-center {
+    background-color: #6385ba;
+    background-position: left -40px;
+    background-repeat: repeat-x;
+    color: #fff;
+    font-size: 16px;
+    line-height: 40px;
+    padding: 0 5px 0 8px;
+}
+.fb-button-right, .fb-button-center, .fb-button-left {
+    background: url(../../img/fb-button-sprite.png?v=1) no-repeat scroll left top transparent;
+    float: left;
+    height: 40px;
+}
+ 
+input[type="checkbox"] {
+    width: auto !important;
+}
+.fondo_login {
+    padding-top: 46px;
+}
+.fondo_login h2 {
+    margin: 24px 0px;
+}
+.fondo_login{
+    background: url(../../img/fondo_login.jpg?v=1) no-repeat scroll left top transparent;  
+    height: 493px;
+}
+.linkCT span {
+    font-size: .78em;
+}
+.signupCt {
+    font-size: .78em;
+}
+ 

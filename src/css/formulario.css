@@ -1,0 +1,29 @@
+form select {
+    color: #757575;
+}
+.form{
+    background: rgba(255, 255, 255, .9);
+    padding: 1.5em;
+    border-radius: 10px;
+    grid-area: form;
+    margin-top: 30px;
+}
+.form input, .form select{
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #dbdbe2;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+.form input[type="radio"] {
+    width: auto;
+ 
+}
+.form p {
+    font-size: 20px;
+    color: #3e3b3f;
+    margin-bottom: 1em;
+}

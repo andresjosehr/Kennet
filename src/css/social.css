@@ -1,0 +1,29 @@
+.social img{
+    max-width: 45px;
+}
+.social span {
+    margin-left: 6.5%;
+}
+.social span:after {
+    content: "";
+    display: inline-block;
+    margin:0 10px;
+    margin-bottom: 15px;
+}
+.enlaces {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.social span:last-child:after {
+ display: none;
+
+}
+.enlaces a {
+    display: block;
+    line-height: 30px;
+    text-decoration: none;
+    color: #9E9E9E;
+}
+.social span a {
+    color: #262626;
+}

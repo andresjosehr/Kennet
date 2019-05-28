@@ -1,0 +1,118 @@
+.buscador-2{
+    display: grid;
+    grid-template-columns: minmax(auto, 1054px);
+    justify-content: center;
+    background-color: #fff;
+    margin-top: 16px;
+}
+.open>.dropdown-menu {
+    display: block;
+}
+.search-filter-menu {
+    padding: 24px;
+    min-width: 300px;
+    margin-top: 8px;
+}
+.dropdown-menu {
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+ 
+.buscador-derecha select {
+    padding: 5px 10px;
+    font-size: 16px;
+    border: 1px solid #dbdbe2;
+    border-radius: 5px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    display: inline-block;
+}
+.buscador-izquierda{
+    display: inline-block;
+} 
+.buscador-derecha {
+    margin-left: 33.9%;
+    display: inline-block;
+}
+.buscador-2 {
+    border-bottom: 3px solid #dedede;
+}
+.buscador-row {
+    margin-bottom: 16px;
+}
+
+.resultados-busqueda{
+    display: grid;
+    grid-template-columns: minmax(auto, 768px);
+    justify-content: center;
+    background-color: #fff;
+ 
+}
+.resultados-busqueda-row{
+    display: grid;
+    grid-template-columns: 120px 1fr 93px;
+    grid-template-areas: "busqueda-img  busqueda-descripcion btnmensajebusqueda"
+                         "busqueda-img busqueda-descripcion ."
+                         "busqueda-img busqueda-descripcion .";
+    grid-gap: 12px;
+}
+
+.profile-details {
+    font-size: .9em;
+    font-weight: bold;
+}
+.busqueda-img{
+    grid-area: busqueda-img;
+}
+.busqueda-descripcion{
+    grid-area: busqueda-descripcion;
+}
+.btnmensajebusqueda{
+    grid-area: btnmensajebusqueda;
+}
+.busqueda-img img {
+    width: 120px;
+}
+.busqueda-descripcion h3 {
+    line-height: 34px;
+    display: inline-block;
+}
+.heart img {
+    width: 1em;
+}
+.busqueda-img span {
+    font-size: .7em;
+}
+.busqueda-img span {
+    font-size: .7em;
+    text-align: center;
+    display: block;
+}
+.resultados-busqueda-row {
+    border-bottom: 1px solid #dedede;
+    padding: 0 0 24px;
+    margin-top: 16px;
+}
+.profile-details a {
+    text-decoration: none;
+}
+.busqueda-img a {
+    text-decoration: none;
+}
+.btnmensajebusqueda a:hover {
+    background: #7b7b7b;
+}
+button.btn-submit.btn-searchbar-submit {
+    background: none;
+    border: 0;
+    color: inherit;
+    /* cursor: default; */
+    font: inherit;
+    line-height: normal;
+    overflow: visible;
+    padding: 0;
+    -webkit-user-select: none;
+    -webkit-appearance: button;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}

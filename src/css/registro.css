@@ -1,0 +1,9 @@
+label.radio-label.btnLogin {
+    padding: 7px 5px;
+    text-align: center;
+    min-width: 40%;
+}
+.form.colortransparente {
+    background: hsla(0,0%,100%,.8) !important;
+
+}

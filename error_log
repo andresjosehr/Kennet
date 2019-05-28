@@ -1,0 +1,35 @@
+[24-May-2019 03:36:48 America/Chicago] PHP Fatal error:  Cannot use object of type stdClass as array in /home/amasynanas/public_html/1353/src/Facebook/FacebookRedirectLoginHelper.php on line 186
+[24-May-2019 03:37:27 America/Chicago] PHP Fatal error:  Cannot use object of type stdClass as array in /home/amasynanas/public_html/1353/src/Facebook/FacebookRedirectLoginHelper.php on line 186
+[24-May-2019 07:09:51 America/Chicago] PHP Notice:  Undefined variable: accessToken in /home/amasynanas/public_html/sistema2/test.php on line 21
+[24-May-2019 07:11:19 America/Chicago] PHP Fatal error:  Uncaught exception 'Facebook\Exceptions\FacebookSDKException' with message 'Cross-site request forgery validation failed. Required param "state" missing from persistent data.' in /home/amasynanas/public_html/filterapp/Facebook/Helpers/FacebookRedirectLoginHelper.php:244
+Stack trace:
+#0 /home/amasynanas/public_html/filterapp/Facebook/Helpers/FacebookRedirectLoginHelper.php(221): Facebook\Helpers\FacebookRedirectLoginHelper->validateCsrf()
+#1 /home/amasynanas/public_html/sistema2/test.php(12): Facebook\Helpers\FacebookRedirectLoginHelper->getAccessToken()
+#2 {main}
+  thrown in /home/amasynanas/public_html/filterapp/Facebook/Helpers/FacebookRedirectLoginHelper.php on line 244
+[24-May-2019 07:12:10 America/Chicago] PHP Fatal error:  Uncaught exception 'Facebook\Exceptions\FacebookSDKException' with message 'Cross-site request forgery validation failed. Required param "state" missing from persistent data.' in /home/amasynanas/public_html/filterapp/Facebook/Helpers/FacebookRedirectLoginHelper.php:244
+Stack trace:
+#0 /home/amasynanas/public_html/filterapp/Facebook/Helpers/FacebookRedirectLoginHelper.php(221): Facebook\Helpers\FacebookRedirectLoginHelper->validateCsrf()
+#1 /home/amasynanas/public_html/sistema2/test.php(12): Facebook\Helpers\FacebookRedirectLoginHelper->getAccessToken()
+#2 {main}
+  thrown in /home/amasynanas/public_html/filterapp/Facebook/Helpers/FacebookRedirectLoginHelper.php on line 244
+[24-May-2019 08:14:01 America/Chicago] PHP Fatal error:  Uncaught exception 'Facebook\Exceptions\FacebookSDKException' with message 'Cross-site request forgery validation failed. Required param "state" missing from persistent data.' in /home/amasynanas/public_html/filterapp/Facebook/Helpers/FacebookRedirectLoginHelper.php:244
+Stack trace:
+#0 /home/amasynanas/public_html/filterapp/Facebook/Helpers/FacebookRedirectLoginHelper.php(221): Facebook\Helpers\FacebookRedirectLoginHelper->validateCsrf()
+#1 /home/amasynanas/public_html/sistema2/test.php(15): Facebook\Helpers\FacebookRedirectLoginHelper->getAccessToken()
+#2 {main}
+  thrown in /home/amasynanas/public_html/filterapp/Facebook/Helpers/FacebookRedirectLoginHelper.php on line 244
+[24-May-2019 08:15:04 America/Chicago] PHP Fatal error:  Uncaught exception 'Facebook\Exceptions\FacebookSDKException' with message 'Cross-site request forgery validation failed. Required param "state" missing from persistent data.' in /home/amasynanas/public_html/filterapp/Facebook/Helpers/FacebookRedirectLoginHelper.php:244
+Stack trace:
+#0 /home/amasynanas/public_html/filterapp/Facebook/Helpers/FacebookRedirectLoginHelper.php(221): Facebook\Helpers\FacebookRedirectLoginHelper->validateCsrf()
+#1 /home/amasynanas/public_html/sistema2/test.php(17): Facebook\Helpers\FacebookRedirectLoginHelper->getAccessToken()
+#2 {main}
+  thrown in /home/amasynanas/public_html/filterapp/Facebook/Helpers/FacebookRedirectLoginHelper.php on line 244
+[24-May-2019 08:16:43 America/Chicago] PHP Fatal error:  Uncaught exception 'Facebook\Exceptions\FacebookSDKException' with message 'Cross-site request forgery validation failed. Required param "state" missing from persistent data.' in /home/amasynanas/public_html/filterapp/Facebook/Helpers/FacebookRedirectLoginHelper.php:244
+Stack trace:
+#0 /home/amasynanas/public_html/filterapp/Facebook/Helpers/FacebookRedirectLoginHelper.php(221): Facebook\Helpers\FacebookRedirectLoginHelper->validateCsrf()
+#1 /home/amasynanas/public_html/sistema2/test.php(16): Facebook\Helpers\FacebookRedirectLoginHelper->getAccessToken()
+#2 {main}
+  thrown in /home/amasynanas/public_html/filterapp/Facebook/Helpers/FacebookRedirectLoginHelper.php on line 244
+[24-May-2019 08:16:57 America/Chicago] PHP Fatal error:  Class 'Facebook' not found in /home/amasynanas/public_html/sistema2/test.php on line 5
+[24-May-2019 08:23:17 America/Chicago] PHP Fatal error:  Class 'Facebook' not found in /home/amasynanas/public_html/sistema2/test.php on line 5

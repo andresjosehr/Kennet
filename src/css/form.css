@@ -1,0 +1,84 @@
+form select {
+    color: #757575;
+}
+.form{
+    background: rgba(255, 255, 255, .9);
+  
+    border-radius: 10px;
+    grid-area: form;
+    margin-top: 30px;
+}
+.form input, .form select{
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #dbdbe2;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+.form h3:after {
+    content: "";
+    display: block;
+    width: auto;
+    height: 1px;
+    margin-top: 20px;
+    margin-left: -15px;
+    margin-right: -15px;
+    border-bottom: 1px solid #eee;
+}
+.form input[type="radio"] {
+    width: auto;
+ 
+}
+.form p {
+    font-size: 14px;
+    color: #3e3b3f;
+    margin-bottom: 1em;
+}
+p.titulo {
+    margin-top: 15px;
+    font-weight: bold;
+}
+.form button{
+    @apply --btnprimario;
+}
+.datosDerecha ul li .btnDatosDerecha a{
+    @apply --btnperfil;
+}
+.btn-buscador{
+    @apply --btn-buscador-variable;
+}
+.datosDerecha ul li .btnDatosDerecha a:hover{
+    background: #443d85;
+}
+ 
+.divTrabajo{
+    display: none;
+}
+.divContratar{
+    display: none;
+}
+.btnpremium a {
+    background: var(--primario);
+    color: white;
+    border-radius: 15px;
+    padding: 6px 15px;
+    border: none;
+    font-size: 12px;
+    /* border-bottom: 5px solid #3D3876; */
+    display: inline-block;
+    text-decoration: none;
+    margin-bottom: 8px;
+}
+.btnmensajebusqueda a {
+    background: #444;
+    color: #fff;
+    border-radius: 15px;
+    padding: 6px 15px;
+    border: none;
+    font-size: 12px;
+    display: inline-block;
+    text-decoration: none;
+    margin-bottom: 8px;
+}

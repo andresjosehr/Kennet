@@ -1,0 +1,166 @@
+.trabajo1{
+    display: grid;
+    grid-template-columns: minmax(auto, 600px);
+    justify-content: center;
+}
+.trabajo1-row{
+    display: grid;
+}
+.breadcrumb{
+    display: grid;
+    grid-template-columns: minmax(auto, 1054px);
+    justify-content: center;
+}
+li.breadcrumb-item.active {
+    list-style: none;
+}
+ol.breadcrumb {
+    margin-top: 8px;
+}
+.back {
+    margin-top: 15px;
+}
+
+.back a {
+    text-decoration: none;
+}
+.form-heading h1{
+    text-align: center
+}
+.progress.default {
+    height: 4px;
+    box-shadow: 0 0;
+    border-radius: 3px;
+    background-color: #dedede;
+}
+ 
+ 
+.form-radiobuttom {
+    width: 54%;
+    display: block;
+    margin: 0 auto;
+}
+.form-radiobuttom .control.segment-control {
+    color: #444;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: normal;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-right: 0px;
+    margin-left: -5px;
+    position: relative;
+    background-color: #FFF;
+    border-radius: none;
+}
+.form-radiobuttom .control {
+    color: #444;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: normal;
+    padding-left: 10px;
+    position: relative;
+}
+.control input {
+    position: absolute;
+    opacity: 0;
+    z-index: -1;
+    visibility: hidden;
+}
+
+.segment-checked .control-indicator {
+    padding-left: 45px;
+    padding-right: 45px;
+    font-size: 16px;
+}
+ input:checked ~ .control-indicator {
+    color: #FFF;
+    background-color: #444;
+}
+
+input[type="radio"], input[type="checkbox"] {
+    margin: 4px 0 0;
+    margin-top: 1px \9;
+    line-height: normal;
+}
+input[type="checkbox"], input[type="radio"] {
+    box-sizing: border-box;
+    padding: 0;
+}
+input, button, select, textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+input {
+    line-height: normal;
+}
+button, input, optgroup, select, textarea {
+    color: inherit;
+    font: inherit;
+    margin: 0;
+}
+  .control.segment-control.segment-checked .control-indicator .icon {
+    position: absolute;
+    top: 9px;
+    right: auto;
+    bottom: 9px;
+    left: 6px;
+    opacity: 0.75;
+}
+ .segment-control .control-indicator {
+    border-radius: 0px;
+    padding: 0px 25px;
+    min-height: 30px;
+    line-height: 30px;
+    max-width: none;
+}
+.control .control-indicator {
+    position: relative;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    font-size: 15px;
+    background-size: 50% 40%;
+    background-color: #fff;
+    border: 1px solid #444;
+ 
+    color: #444;
+    display: block;
+    min-height: 38px;
+    line-height: 36px;
+    margin: auto;
+    text-align: center;
+   
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.control.segment-control:first-child .control-indicator {
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.control.segment-control:nth-child(2) .control-indicator {
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+
+hr.divider {
+    background-color: #dedede;
+    border-top-style: none;
+    width: 98%;
+    margin-right: auto;
+    margin-left: auto;
+    height: 1px;
+}
+hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 1px solid #dedede;
+}
+hr {
+    box-sizing: content-box;
+    height: 0;
+}

@@ -1,0 +1,313 @@
+.anuncios img {
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.bradbrumbs ul li {
+    display: inline-block;
+    padding: 0px 10px;
+}
+
+.bradbrumbs ul li:nth-child(1) {
+    padding: 0px;
+  }
+  .bradbrumbs ul li:nth-child(4) {
+    padding: 0px;
+  }
+  section.bradbrumbs {
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: grid;
+    grid-template-columns: minmax(auto, 1054px);
+    justify-content: center;
+}
+
+.bradbrumbs ul li a{
+    list-style: none;
+    text-decoration: none;
+    color: #00BCD4;
+}
+.suscribaseapremium ul li{
+    display: inline-block;
+    padding: 0px 10px;
+}
+.suscribaseapremium span{
+    display: inline-block;
+}
+.suscribaseapremium ul{
+    display: inline-block;
+}
+.suscribaseapremium .btnpremium{
+    display: inline-block;
+}
+.suscribaseapremium {
+    background: #EEEFDF;
+    width: 56%;
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+}
+.suscribaseapremium span {
+    font-weight: bold;
+    font-size: .9em;
+}
+.hero-people{
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    grid-gap: 15px;
+    grid-template-areas:
+    "imagen-perfil  datos-people";
+}
+.imagen-perfil{
+    grid-area: imagen-perfil;
+}
+.datos-people{
+    grid-area: datos-people;
+}
+.experiencia {
+    display: inline-block;
+}
+.tarifa {
+    display: inline-block;
+    margin-left: 20px;
+}
+ 
+.experiencia span, .tarifa span {
+    color: #8E8E8E;
+}
+.adicional ul li{
+    display: inline-block;
+    list-style: none;
+    text-decoration: none;
+}
+/* .container-perfil-dos{
+    display: grid;
+    grid-template-columns: minmax(auto, 1054px);
+    justify-content: center;
+    background-color: #fff;
+} */
+.suscribaseapremium ul li {
+    background: transparent url(../../img/tickMark-green.png?v=1) top left no-repeat;
+ 
+    padding: 0 10px 0 20px;
+}
+.suscribaseapremium ul li:nth-child(3) {
+    padding-right: 0px;
+  }
+
+.hero-perfil-container{
+    display: grid;
+    grid-template-columns: minmax(auto, 1054px);
+    justify-content: center;
+    background-color: #fff;
+}
+
+.divVerificacionCont{
+    display: grid;
+    grid-template-columns: minmax(auto, 780px);
+    justify-content: center;
+    background-color: #fff;
+}
+.divVerificacionCont-row{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "divverificacionesAdicionales1 divverificacionesAdicionales2"
+                         "divverificacionesAdicionales3 divverificacionesAdicionales4";
+    grid-gap: 10px;
+}
+.rpbgc-icons.active {
+    background-color: #6db33f;
+    border: 1px solid #6db33f;
+}
+.rpbgc-phone {
+    background-position: -130px -3px;
+}
+.rpbgc-mail {
+    background-position: -94px 0;
+}
+.divverificacionesAdicionales1{
+    grid-area: divverificacionesAdicionales1;
+}
+.divverificacionesAdicionales2{
+    grid-area: divverificacionesAdicionales2;
+}
+.divverificacionesAdicionales3{
+    grid-area: divverificacionesAdicionales3;
+}
+.divverificacionesAdicionales4{
+    grid-area: divverificacionesAdicionales4;
+}
+.hero-perfil{
+    display: grid;
+    grid-template-columns: 160px 1fr 1fr 264px;
+    grid-template-areas: "imagen-perfil datos-people datos-people datosDerecha"
+                         "imagen-perfil datos-people-dos datos-people-dos datosDerecha"
+                         "datosAdicional datosAdicional datosAdicional datosDerecha"
+                         "actividad actividad actividad datosDerecha"
+                         "conoce conoce conoce datosDerecha"
+                         "tambienayudacon tambienayudacon tambienayudacon datosDerecha"
+                         "seguridadVerificaciones seguridadVerificaciones seguridadVerificaciones datosDerecha"
+                         "seguridadVerificacionesBloque seguridadVerificacionesBloque seguridadVerificacionesBloque datosDerecha"
+                         "verificacionesAdicionales verificacionesAdicionales verificacionesAdicionales datosDerecha";
+                         
+    grid-gap: 10px;
+}
+
+.imagen-perfil{
+    grid-area: imagen-perfil;
+}
+.datos-people{
+    grid-area: datos-people;
+}
+.datosDerecha{
+    grid-area: datosDerecha;
+}
+.datos-people-dos{
+    grid-area: datos-people-dos;
+}
+.datosAdicional{
+    grid-area: datosAdicional;
+}
+.actividad{
+    grid-area: actividad;
+}
+.conoce{
+    grid-area: conoce;
+}
+.tambienayudacon{
+    grid-area: tambienayudacon;
+}
+.seguridadVerificaciones{
+    grid-area: seguridadVerificaciones;
+}
+.seguridadVerificacionesBloque{
+    grid-area: seguridadVerificacionesBloque;
+}
+.verificacionesAdicionales{
+    grid-area: verificacionesAdicionales;
+}
+
+.titulo_perfil {
+    color: #32B3A3;
+}
+.crossMarkSml, .tickMarkSml {
+    font-size: .8rem;
+}
+.tickMarkSml {
+    margin-top: 5px;
+    background: transparent url(../../img/availability-checkmark-selected-18x18.png) -1px 3px no-repeat;
+    padding: 5px 5px 2px 24px;
+}
+.crossMarkSml {
+    margin-top: 5px;
+    background: transparent url(../../img/x-mark-icon.png) -1px 3px no-repeat;
+    padding: 5px 5px 2px 24px;
+}
+.tambienayudacon {
+    margin: 15px 0px;
+}
+.tambienayudaconIconos img {
+    display: block;
+    margin: 15px auto;
+}
+ 
+.tambienayudaconIconos {
+    display: inline-block;
+    width: 129px;
+    text-align: center;
+}
+.seguridadVerificacionesBloque img {
+    display: block;
+    margin: 15px auto;
+}
+.seguridadVerificacionesBSection1 {
+    width: 250px;
+    text-align: center;
+    display: inline-block;
+}
+.seguridadVerificacionesBSection1 h5 {
+    text-align: center;
+    width: 71%;
+    margin: 0 auto;
+}
+.seguridadVerificacionesBloque {
+    margin-top: 30px;
+}
+.rpbgc-icons.active {
+    background-color: #6db33f;
+    border: 1px solid #6db33f;
+}
+.rpbgc-fb {
+    background-position: -25px -3px;
+}
+.rpbgc-icons {
+    background-image: url(../../img/rpbgc-sprite-icons.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    background-color: #d9d9d9;
+    width: 32px;
+    height: 32px;
+    float: left;
+    border: 1px solid #d9d9d9;
+    padding: 5px;
+    margin: -5px 5px 0;
+    border-radius: 50%;
+}
+.verificacionesAdicionales h3 {
+    padding: 0 0 24px 0;
+}
+.rpbgc-twitter {
+    background-position: -203px -1px;
+}
+
+.datosDerecha {
+    background: #f7f7f7;
+}
+.datosDerecha ul {
+    text-decoration: none;
+    list-style: none;
+    text-align: center;
+}
+.datosDerecha ul li a {
+    text-decoration: none;
+    line-height: 35px;
+    color: #484848;
+    font-size: .9em;
+}
+@font-face {
+    font-family: 'icomoon';
+    src:  url('../fonts/icomoon.eot?y7dz9n');
+    src:  url('../fonts/icomoon.eot?y7dz9n#iefix') format('embedded-opentype'),
+      url('../fonts/icomoon.ttf?y7dz9n') format('truetype'),
+      url('../fonts/icomoon.woff?y7dz9n') format('woff'),
+      url('../fonts/icomoon.svg?y7dz9n#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  [class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+  
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .icon-star-full:before {
+    content: "\e9d9";
+  }
+  span.icon-star-full {
+    color: #cec8c8;
+    font-size: 20px;
+}
+.star {
+    display: inline-block;
+  }

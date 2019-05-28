@@ -1,0 +1,248 @@
+.miPerfilContainer{
+    display: grid;
+    grid-template-columns: minmax(auto, 1054px);
+    justify-content: center;
+    background-color: #fff;
+}
+.miPerfilContainerRow{
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    grid-template-areas: "miPerfil_titulo  miPerfil_imagenPremium"
+                         "miPerfil_masenlaces miPerfil_configuracion"
+                         "miPerfil_masenlaces miPerfil_informacionGeneral"
+                         "miPerfil_masenlaces miPerfil_misfotos"
+                         "miPerfil_masenlaces miPerfil_necesidadesCuidado"
+                         "miPerfil_masenlaces miPerfil_Menbresia"
+                         "miPerfil_masenlaces miPerfil_configuracionPrivacidad"
+                         "miPerfil_masenlaces miPerfil_tarjetaCredito"
+                         ;
+    grid-gap: 14px;
+}
+.miPerfil_titulo{
+    grid-area: miPerfil_titulo;
+}
+.miPerfil_imagenPremium{
+    grid-area: miPerfil_imagenPremium;
+}
+.miPerfil_masenlaces{
+    grid-area: miPerfil_masenlaces;
+}
+.miPerfil_configuracion{
+    grid-area: miPerfil_configuracion;
+}
+.miPerfil_informacionGeneral{
+    grid-area: miPerfil_informacionGeneral;
+}
+.miPerfil_misfotos{
+    grid-area: miPerfil_misfotos;
+}
+.miPerfil_Menbresia{
+    grid-area: miPerfil_Menbresia;
+}
+.miPerfil_necesidadesCuidado{
+    grid-area: miPerfil_necesidadesCuidado;
+}
+.miPerfil_configuracionPrivacidad{
+    grid-area: miPerfil_configuracionPrivacidad;
+}
+.miPerfil_tarjetaCredito{
+    grid-area: miPerfil_tarjetaCredito;
+}
+.miPerfil_masenlaces img {
+    width: 100px;
+}
+.miPerfil_titulo {
+    display: grid;
+    align-items: center;
+}
+.miPerfil_titulo h4 span {
+    color: #56509f;
+    font-style: italic;
+}.miPerfil_configuracion h2 {
+    font-size: 1.2em;
+}.miPerfil_configuracion a {
+    font-size: .8em;
+    color: #5750a0;
+}.miPerfil_misfotos, .miPerfil_necesidadesCuidado, .miPerfil_Menbresia, .miPerfil_configuracionPrivacidad, .miPerfil_tarjetaCredito  {
+    background: #ebebeb;
+    border-radius: 8px;
+}.miPerfil_informacionGeneral_lista {
+    background: #ebebeb;
+    border-radius: 8px;
+    padding: 10px 0px 0px 25px;
+}.miPerfil_informacionGeneral_lista h4 {
+    padding: 0px;
+    margin: 0;
+    box-sizing: border-box;
+}
+.miPerfil_informacionGeneral_lista div {
+    line-height: 24px;
+    font-weight: 600;
+    font-size: .9em;
+}
+.miPerfil_informacionGeneral_lista{
+    display: grid;
+    grid-template-columns: minmax(auto, 820px);
+ 
+}
+.miPerfil_informacionGeneral_listaCont{
+    display: grid;
+    grid-template-columns: 165px 1fr;
+    grid-template-areas: "miPerfil_informacionGeneral_lista_Titulo1 miPerfil_informacionGeneral_lista_Descripcion1"
+                         "miPerfil_informacionGeneral_lista_Titulo2 miPerfil_informacionGeneral_lista_Descripcion2"
+                         "miPerfil_informacionGeneral_lista_Titulo3 miPerfil_informacionGeneral_lista_Descripcion3"
+                         "miPerfil_informacionGeneral_lista_Titulo4 miPerfil_informacionGeneral_lista_Descripcion4"
+                         "miPerfil_informacionGeneral_lista_Titulo5 miPerfil_informacionGeneral_lista_Descripcion5"
+                         "miPerfil_informacionGeneral_lista_Titulo6 miPerfil_informacionGeneral_lista_Descripcion6"
+                         "miPerfil_informacionGeneral_lista_Titulo7 miPerfil_informacionGeneral_lista_Descripcion7"
+                         "miPerfil_informacionGeneral_lista_Titulo8 miPerfil_informacionGeneral_lista_Descripcion8"
+                         "miPerfil_informacionGeneral_lista_Titulo9 miPerfil_informacionGeneral_lista_Descripcion9"
+                         "miPerfil_informacionGeneral_lista_Titulo10 miPerfil_informacionGeneral_lista_Descripcion10"
+                         "miPerfil_informacionGeneral_lista_Titulo11 miPerfil_informacionGeneral_lista_Descripcion11"
+                         "miPerfil_informacionGeneral_lista_Titulo12 miPerfil_informacionGeneral_lista_Descripcion12";
+/*  grid-gap: 16px; */
+}
+.miPerfil_informacionRedes {
+    border-color: #ccc;
+    border-style: solid;
+    border-width: 1px 0 0;
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0 0;
+}.miPerfil_informacionRedes p {
+    font-weight: normal;
+    font-size: .8em;
+}
+.miPerfil_informacionRedesFacebook {
+    margin: 10px 0px;
+}
+span.miPerfil_facebook_left {
+    display: inline-block;
+}
+span.miPerfil_facebook_right {
+    display: inline-block;
+    margin-left: 5%;
+    vertical-align: top;
+}
+.miPerfil_misfotos_row{
+    padding: 5px 0 25px 25px;
+}
+.miPerfil_misfotos_row img {
+    border: 1px solid #ccc;
+    background: #fff;
+    width: 160px;
+    height: 160px;
+    padding: 4px;
+}.miPerfil_misfotos_row a {
+    font-size: .95em;
+}
+.miPerfil_misfotos_row p {
+    font-size: .8em;
+}
+.miPerfil_necesidadesCuidado_row{
+    padding: 10px 0 25px 25px;
+}
+.miPerfil_misfotos_row_MisFotos{
+    font-weight: 600;
+}.miPerfil_misfotos_row div {
+    margin-bottom: 15px;
+}
+.miPerfil_necesidadesCuidado_row_contenedor{
+    display: grid;
+    grid-template-columns: minmax(auto, 820px);
+    justify-content: center;
+ 
+}
+.miPerfil_necesidadesCuidado_row_contenedor_row{
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    grid-template-areas: "miPerfil_necesidadesCuidado_row_contenedor_row1  miPerfil_necesidadesCuidado_row_contenedor_row_descripcion1"
+                         "miPerfil_necesidadesCuidado_row_contenedor_row2 miPerfil_necesidadesCuidado_row_contenedor_row_descripcion2"
+                         "miPerfil_necesidadesCuidado_row_contenedor_row3 miPerfil_necesidadesCuidado_row_contenedor_row_descripcion3"
+                         ;
+    grid-gap: 14px;
+}
+
+.miPerfil_Menbresia_row_contenedor{
+    display: grid;
+    grid-template-columns: minmax(auto, 820px);
+    justify-content: center;
+ 
+}
+.miPerfil_Menbresia_row_contenedor_row{
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    grid-template-areas: "miPerfil_Menbresia_row_contenedor_row_contenedor_row1 miPerfil_Menbresia_row_contenedor_row_contenedor_row_descripcion1"
+                         "miPerfil_Menbresia_row_contenedor_row_contenedor_row2 miPerfil_Menbresia_row_contenedor_row_contenedor_row_descripcion2"
+                         "miPerfil_Menbresia_row_contenedor_row_contenedor_row3 miPerfil_Menbresia_row_contenedor_row_contenedor_row_descripcion3"
+                         ;
+    grid-gap: 14px;
+}
+.miPerfil_Menbresia_row_contenedor_row_contenedor_row1{
+    grid-area: miPerfil_Menbresia_row_contenedor_row_contenedor_row1;
+}
+.miPerfil_Menbresia_row_contenedor_row_contenedor_row_descripcion1{
+    grid-area: miPerfil_Menbresia_row_contenedor_row_contenedor_row_descripcion1;
+}
+.miPerfil_Menbresia_row_contenedor_row_contenedor_row2{
+    grid-area: miPerfil_Menbresia_row_contenedor_row_contenedor_row2;
+}
+.miPerfil_Menbresia_row_contenedor_row_contenedor_row_descripcion2{
+    grid-area: miPerfil_Menbresia_row_contenedor_row_contenedor_row_descripcion2;
+}
+.miPerfil_Menbresia_row_contenedor_row_contenedor_row3{
+    grid-area: miPerfil_Menbresia_row_contenedor_row_contenedor_row3;
+}
+.miPerfil_Menbresia_row_contenedor_row_contenedor_row_descripcion3{
+    grid-area: miPerfil_Menbresia_row_contenedor_row_contenedor_row_descripcion3;
+}
+.miPerfil_Menbresia_row {
+    padding: 10px 0 25px 25px;
+}
+.miPerfil_configuracionPrivacidad_row {
+    padding: 10px 0 25px 25px;
+}
+.miPerfil_configuracionPrivacidad_row ul li {
+    list-style-image: url(../../img/icon_checkmark.gif);
+    margin-left: 23px;
+}
+.miPerfil_tarjetaCredito_row {
+    padding: 10px 0 25px 25px;
+}
+.tarjetaCredito{
+    display: grid;
+    grid-template-columns: minmax(auto, 820px);
+    justify-content: center;
+}
+.tarjetaCredito_row{
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    grid-template-areas: "tarjetaCredito_Titulo tarjetaCredito_Disponible"
+                         ". tarjetaCredito_Disponible"
+                         ;
+    grid-gap: 14px;
+}
+.tarjetaCredito_Titulo{
+    grid-area: tarjetaCredito_Titulo;
+}
+.tarjetaCredito_Disponible{
+    grid-area: tarjetaCredito_Disponible;
+}
+span.miPerfil_configuracionPrivacidad_titulo {
+    font-weight: 600;
+}
+.miPerfil_masenlaces ul li a {
+    list-style: none;
+    text-decoration: none;
+}
+.miPerfil_masenlaces ul {
+    list-style: none;
+}.miPerfil_masenlaces ul li a {
+    list-style: none;
+    text-decoration: none;
+    line-height: 36px;
+    color: #56509f;
+}
+.miPerfil_masenlaces ul li a:hover {
+ font-weight: bold;
+    color: #494385;
+}

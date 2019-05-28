@@ -1,0 +1,174 @@
+@media screen and (max-width:767px){
+    .recursos {
+   
+        padding: 0px 20px;
+    }
+    .recursos_container{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-areas: 
+        "recursos_item1  recursos_item2 recursos_item3" 
+        "  recursos_item4 recursos_item5  recursos_item6";
+        
+        grid-gap: 20px;
+ /*        grid-template-rows: 1fr 1fr 1fr
+         1fr  1fr 1fr; */
+       
+    }
+ 
+    section.hero {
+        padding: 0px 15px;
+    }
+    .container33 {
+ 
+        -ms-grid-columns:  1fr;
+        grid-template-columns: 1fr;
+        grid-template-areas: "divjob"
+                             "divpersonas";
+  
+    }
+
+    .titulos-backoffice {
+        grid-template-columns: 1fr;
+        grid-template-areas: "titlejob";
+        align-items: center;
+    }
+
+    span.buscador3 {
+        display: none;
+    }
+    .cajasdetexto {
+ 
+        grid-template-columns: 1fr 120px   1fr 50px;
+        
+        grid-template-areas:
+        "buscador1  buscador2   buscador4 buscador5";
+    }
+    .cabecera-buscador {
+        padding: 0px 15px;
+    }
+
+    img#imgresponsive{
+          display: block;
+     }
+    .fondo-container{
+        display: grid;
+        grid-template-columns: 487px  188px;
+        grid-template-areas:
+        "logo login"
+        "form form"
+        "footer  footer";
+        justify-items: center;       
+    }
+    .form{
+        margin-left: 14%;
+        margin-top: 15px;
+    }
+    .bloque2{
+        display: none;
+    }
+    .form input {
+ 
+        font-size: 14px;
+ 
+    }
+    /* backoffice */
+    .menu {
+        display: none;
+    }
+    .perfil {
+        display: none;
+    }
+    .flecha img {
+        display: none;
+    }
+    .burger-button img{
+        display: block;
+    }
+
+    .cabecera-logo{
+        grid-template-columns: 165px  1fr;
+        grid-template-areas:
+        "logo-pequeno btnpremium";
+        justify-items: center;  
+    }
+    .logo-pequeno img {
+        margin-left: 30px;
+        padding-top: 4px;
+    }
+    .trabajos {
+        padding: 0px 20px;
+    }
+
+    .trabajos_container{
+        grid-template-columns: 1fr  1fr;
+        grid-template-areas:
+        "trabajos_item trabajos_item"
+        "trabajos_item trabajos_item" ;
+    
+    }
+    .anuncios img {
+        width: 90%;
+    }
+    .bradbrumbs ul li a {
+        font-size: .8em;
+    }
+    .suscribaseapremium ul li {
+        font-size: .8em;
+    }
+    .suscribaseapremium {
+        width: 88%;
+    }
+    .suscribaseapremium ul li {
+        padding: 0 3px 0 19px;
+        line-height: 28px;
+    }
+    form.form.sinpadding {
+        margin-left: 0;
+    }
+    .resultados-busqueda-row{
+ 
+        margin: 10px 15px;
+    }
+ 
+    .miPerfilContainerRow{
+    /*     margin: 0px 2%; */
+        grid-template-columns: 1fr;
+        grid-template-areas: "miPerfil_imagenPremium"
+                             "miPerfil_titulo"
+                             "miPerfil_masenlaces"
+                             "miPerfil_configuracion"
+                             "miPerfil_informacionGeneral"
+                             "miPerfil_misfotos"
+                             "miPerfil_necesidadesCuidado"
+                             "miPerfil_Menbresia"
+                             "miPerfil_configuracionPrivacidad"
+                             "miPerfil_tarjetaCredito"
+                             ;
+    }
+    .miPerfil_imagenPremium img {
+        display: block;
+        width: 100%;
+    }
+    .miPerfil_necesidadesCuidado_row_contenedor {
+        font-size: .8em;
+    }
+    .miPerfil_Menbresia_row_contenedor {
+        font-size: .8em;
+    }
+    .miPerfil_configuracionPrivacidad {
+        font-size: .78em;
+    }
+    .miPerfil_tarjetaCredito {
+        font-size: .8em;
+    }
+/*     .miPerfil_informacionGeneral_lista{
+        display: grid;
+        grid-template-columns: minmax(auto, 767px);
+     
+    } */
+    section.miPerfilContainer {
+        margin-left: 2%;
+        margin-right: 2%;
+    }    
+}

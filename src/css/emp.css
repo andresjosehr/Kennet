@@ -1,0 +1,22 @@
+.emp{
+    border-radius: 15px;
+    border: 1px solid #9e9e9e4f;
+    margin-top: 10px;
+    padding: 10px 0 0 0;
+}
+.emp_categorias {
+    width: 100%;
+    min-height: 559px;
+    background: url(../../img/emp_bebe.png);
+    background-repeat-x: no-repeat;
+    background-repeat-y: no-repeat;    
+    background-position-y: bottom;
+    z-index: 999999;
+    background-position: 66% 99%;
+}
+.emp.container {
+    border: 1px solid #ccc5;
+    border-radius: 11px;
+    margin-top: 5px;
+    padding-top: 20px;
+}

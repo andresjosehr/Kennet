@@ -1,0 +1,164 @@
+@media screen and (max-width:320px){
+    section.premium_contenedor {
+        width: 70%;
+        margin: 0 auto;
+    }
+    .titulopersonas li {
+ 
+        padding: 10px 3%;
+    }
+    .logo-pequeno {
+   
+        justify-content: left;
+    }
+    .logo-pequeno img {
+       margin-left: 0px; 
+       
+    }
+    .burger-button img {
+        max-width: 20px;
+        margin-top: 0px;
+    }
+    .checkbox-label, .radio-label {
+        padding: 8px 7px;
+        border-bottom: 5px solid #3d3876;
+       font-size: 16px;
+   }    
+    .footer-container .info{
+        text-align: start;
+    }
+    form.form {
+        width: 80%;
+    }
+    .social span {
+        margin-left: 4.5%;
+    }
+
+    .radio-inline {
+ 
+        padding-left: 28px;
+        margin-right: 9px;
+ 
+    }
+    p.terminos {
+        font-size: 11px;
+    }
+    section.premium_contenedor {
+        width: 88%;
+  
+    }
+    .suscribase {
+        width: 75%;
+    }
+    .recursos_container{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: 
+        "recursos_item1  recursos_item2"
+        "recursos_item3 recursos_item4" 
+        "recursos_item5  recursos_item6";
+        grid-gap: 20px;
+       
+    }
+    .footer_white .footer-container .info {
+        text-align: left;
+     
+    }
+    .bradbrumbs ul li a {
+        font-size: .6em;
+    }
+    .bradbrumbs ul li {
+        padding: 0px 5px;
+    }
+    .bradbrumbs ul li:first-child, .bradbrumbs ul li:nth-child(4) {
+        font-size: .7em;
+    }
+    .suscribaseapremium {
+        width: 82%;
+    }
+    .seguridadVerificacionesBSection1 {
+        width: 46%;
+    }
+    .hero-perfil{
+        grid-gap: 10px;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: "imagen-perfil  datos-people "
+                             "imagen-perfil  datos-people-dos "
+                             "datosAdicional  datosAdicional " 
+                             "datosDerecha datosDerecha";
+    }
+
+    .hero-perfil{
+        grid-template-columns: 1fr;
+        grid-template-areas: "imagen-perfil "
+                             "datos-people "
+                             "datos-people-dos"
+                             "datosAdicional"
+                             "datosAdicional"
+                             "datosAdicional"
+                             "datosAdicional"
+                             "actividad "
+                             "conoce "
+                             "tambienayudacon "
+                             "seguridadVerificaciones "
+                             "seguridadVerificacionesBloque "
+                             "verificacionesAdicionales  "
+                             "datosDerecha ";
+    }
+    .tambienayudaconIconos {
+        width: 33%;
+ 
+    }
+    .divVerificacionCont-row{
+        grid-template-columns: 1fr;
+        grid-template-areas: "divverificacionesAdicionales1"
+                             "divverificacionesAdicionales2"
+                             "divverificacionesAdicionales3"
+                             "divverificacionesAdicionales4";
+  
+    }
+    .resultados-busqueda-row{
+        grid-template-columns: 1fr  1fr ;
+        grid-template-areas: "busqueda-img btnmensajebusqueda"
+                             "busqueda-descripcion busqueda-descripcion"
+                             ;
+        grid-gap: 6px;
+        margin: 10px 15px;
+    }
+    .btnmensajebusqueda {
+        align-items: center;
+        justify-content: center;
+        display: grid;
+    }
+    .miPerfil_informacionGeneral_lista {
+        padding: 10px 0 0 12px;
+    }
+    .miPerfil_informacionGeneral_lista {
+         
+        margin-right: 1%;
+    }
+    .miPerfil_misfotos {
+     
+        margin-right: 1%;
+    } 
+    .miPerfil_misfotos_row {
+        padding: 5px 0 25px 12px;
+    }
+/*     .miPerfil_necesidadesCuidado {
+        margin-left: 2%;
+        margin-right: 2%;
+    } */
+    .miPerfil_necesidadesCuidado_row {
+        padding: 10px 0 25px 12px;
+    }
+    .tarjetaCredito_row {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: "tarjetaCredito_Titulo tarjetaCredito_Disponible" ". tarjetaCredito_Disponible";
+        grid-gap: 14px;
+    }
+    .contenedorTrabajoServicios-row{
+    /*     display: grid; */
+        grid-template-columns: 1fr;
+    }  
+}

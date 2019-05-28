@@ -1,0 +1,30 @@
+.suscribaseapremium.tituloBienvenidos {
+    font-size: 1.2em;
+}
+.upgrade-two-steps .membershipHeader .StepsHead.active {
+    border-bottom-color: #a0d500;
+    color: #333;
+}
+.upgrade-two-steps .membershipHeader .StepsHead {
+    width: 50%;
+    float: left;
+    text-align: center;
+    font-size: 18px;
+    color: #999;
+    padding-bottom: 5px;
+    border-bottom: 5px solid #eaeaea;
+    cursor: pointer;
+}
+.stepOneBlock.hideForTwo {
+    margin-top: 50px;
+}
+input#paypalWaiting {
+    width: 5%;
+}
+.gotoStepTwo.stepOneBlock.hideForTwo.submitEleWrapper a {
+    background: #56509f;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 10px;
+    text-decoration: none;
+}
